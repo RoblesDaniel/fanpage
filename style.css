@@ -1,4 +1,18 @@
-p{
-    color:red;
-    
+h1{
+    color:blue;
+    font-size:50px;
+    border:100px;
+}
+.super{
+    display:flex;
+}
+.character2{
+    display:flex;
+    justify-content:flex-end;
+    width:50%;
+    margin:20px;
+}
+.character1{
+    display:flex;
+    justify-content:flex-start;
 }
