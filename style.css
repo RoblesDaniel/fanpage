@@ -1,21 +1,76 @@
 h2{
     color:blue;
-    font-family:'Bubblegum Sans', cursive;
-    font-size:40px;
-    padding:30px;
+    background-color:orange;
+    font-size:35px;
+    padding:20px;
     border:5px solid red;
-    
+    margin-bottom: 15px;
+    width:50%;
+}
+
+h3{
+    font-size:18px;
+    position: absolute;
+    top:120px;
+    border:5px solid blue;
+    background-color:yellow;
+    display:flex;
+    width:35%;
+}
+h4{
+    position: absolute;
+    display:flex;
+    justify-content:center;
+    left:740px;
+    border:5px solid red;
+    background-color:blue;
+    width:35%;
+    top:115px;
+}
+h5{
+    position: absolute;
+    border:5px solid purple;
+    font-size:18px;
+    width:35%;
+    left:1430px;
+    background-color:gold;
+    top:108px;
 }
 .super{
-    display:flex;
+    display: flex;
+    position: absolute;
 }
-.character2{
+.kaioken{
     display:flex;
-    justify-content:flex-end;
-    width:50%;
-    margin:20px;
+    position: absolute;
+    height:600px;
+    width:600px;
+    left:700px;
+    top:370px;
 }
-.character1{
+.blue{
     display:flex;
-    justify-content:flex-start;
+    position: absolute;
+    top:390px;
+    left:10px;
 }
+.vegeta{
+    height:600px;
+    width:500px;
+}
+.golden{
+    display: flex;
+    position:absolute; 
+    left: 1425px;
+    top:460px;
+}
+.frieza{
+    left:1500px;
+    height:600px;
+    width:500px;
+}
+
+
+
+
+
