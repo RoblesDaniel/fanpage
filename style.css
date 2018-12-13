@@ -1,3 +1,28 @@
+#DBS{
+    width:9%;
+    border-radius:100px;
+    background-color:yellow;
+    color:red;
+    font-size:15px ;
+    position:absolute;
+    top:10px;
+    left:1000px;
+    padding:40px;
+    padding-left:9px;
+    border: 3px solid black;
+}
+#broly{
+    width:10%;
+    border-radius:100px;
+    color:white;
+    background-color:limegreen;
+    position:absolute;
+    top:10px;
+    left:800px;
+    padding:40px;
+    padding-left:22px;
+    border: 3px solid black;
+}
 h2{
     color:blue;
     background-color:orange;
@@ -7,11 +32,10 @@ h2{
     margin-bottom: 15px;
     width:50%;
 }
-
 h3{
     font-size:18px;
     position: absolute;
-    top:120px;
+    top:140px;
     border:5px solid blue;
     background-color:yellow;
     display:flex;
@@ -25,7 +49,7 @@ h4{
     border:5px solid red;
     background-color:blue;
     width:35%;
-    top:115px;
+    top:136px;
 }
 h5{
     position: absolute;
@@ -34,11 +58,12 @@ h5{
     width:35%;
     left:1430px;
     background-color:gold;
-    top:108px;
+    top:128px;
 }
 .super{
     display: flex;
     position: absolute;
+    top:150px;
 }
 .kaioken{
     display:flex;
@@ -51,7 +76,7 @@ h5{
 .blue{
     display:flex;
     position: absolute;
-    top:390px;
+    top:410px;
     left:10px;
 }
 .vegeta{
@@ -62,15 +87,83 @@ h5{
     display: flex;
     position:absolute; 
     left: 1425px;
-    top:460px;
+    top:490px;
 }
 .frieza{
     left:1500px;
     height:600px;
     width:500px;
 }
-
-
-
+.title{
+    position: absolute;
+    width:1920px;
+    height:500px;
+    top:1230px;
+}
+.prince{
+    position: absolute;
+    display: flex;
+    justify-content:flex-start;
+    width:690px;
+    height:900px;
+    top:3730px;
+}
+.goku{
+    position: absolute;
+    width:680px;
+    height:1000px;
+    left:1250px;
+    top:3620px;
+}
+.piccolo{
+    position: absolute;
+    top:2530px;
+    width:693px;
+    height:1100px;
+}
+.enemy{
+    position: absolute;
+    left:1400px;
+    width:530px;
+    height:1000px;
+    top:2500px;
+}
+.berserker{
+    position: absolute;
+    left: 9px;
+    top:1730px;
+    width:690px;
+    height:800px;
+}
+.gods{
+    position: absolute;
+    left:1380px;
+    width:550px;
+    height:800px;
+    top:1720px;
+}
+.father{
+    position: absolute;
+    left:800px;
+    width:600px;
+    height:800px; 
+    top:1730px;
+}
+.fusion{
+    position:absolute;
+    display: flex;
+    justify-content:center;
+    left:700px;
+    height:1000px;
+    width:700px;
+    top:3630px;
+}
+.poster{
+    position:absolute;
+    left:700px;
+    width:700px;
+    height:1100px;
+    top:2530px;
+}
 
 
