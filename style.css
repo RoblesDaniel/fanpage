@@ -1,28 +1,28 @@
-#DBS{
-    width:9%;
-    border-radius:100px;
-    background-color:yellow;
-    color:red;
-    font-size:15px ;
-    position:absolute;
-    top:10px;
-    left:1000px;
-    padding:40px;
-    padding-left:9px;
-    border: 3px solid black;
+#DBSB{
+ display:none;   
 }
-#broly{
-    width:10%;
-    border-radius:100px;
-    color:white;
-    background-color:limegreen;
-    position:absolute;
+#movie{
+    position: absolute;
+    left:900px;
     top:10px;
-    left:800px;
-    padding:40px;
-    padding-left:22px;
-    border: 3px solid black;
+    border-radius:70px;
+    padding:50px;
+    background-color:lime;
+    border:5px solid black;
+    font-size:20px;
 }
+
+#anime{
+    position: absolute;
+    left:1500px;
+    top:10px;
+    border-radius:70px;
+    padding:40px;
+    background-color:red;
+    border:5px solid black;
+    font-size:20px;
+}
+
 h2{
     color:blue;
     background-color:orange;
@@ -98,56 +98,57 @@ h5{
     position: absolute;
     width:1920px;
     height:500px;
-    top:1230px;
+    top:200px;
+    left:0px;
+}
+.poster{
+    position:absolute;
+    left:700px;
+    width:700px;
+    height:1000px;
+    top:700px;
+}
+.piccolo{
+    position: absolute;
+    top:700px;
+    width:693px;
+    height:1000px;
+}
+.gods{
+    position: absolute;
+    left:1380px;
+    width:550px;
+    height:1000px;
+    top:700px;
+}
+.tyrannt{
+    position: absolute;
+    top:1700px;
+    width:700px;
+    height:1000px;
+    left:1000px;
+}
+.berserker{
+    position: absolute;
+    left: 200px;
+    top:1700px;
+    width:700px;
+    height:1000px;
 }
 .prince{
     position: absolute;
     display: flex;
     justify-content:flex-start;
     width:690px;
-    height:900px;
-    top:3730px;
+    height:1000px;
+    top:2700px;
 }
 .goku{
     position: absolute;
     width:680px;
-    height:900px;
-    left:1250px;
-    top:3720px;
-}
-.piccolo{
-    position: absolute;
-    top:2530px;
-    width:693px;
-    height:1100px;
-}
-.enemy{
-    position: absolute;
-    left:1400px;
-    width:530px;
     height:1000px;
-    top:2630px;
-}
-.berserker{
-    position: absolute;
-    left: 9px;
-    top:1730px;
-    width:690px;
-    height:800px;
-}
-.gods{
-    position: absolute;
-    left:1380px;
-    width:550px;
-    height:800px;
-    top:1720px;
-}
-.father{
-    position: absolute;
-    left:800px;
-    width:600px;
-    height:800px; 
-    top:1730px;
+    left:1250px;
+    top:2700px;
 }
 .fusion{
     position:absolute;
@@ -156,14 +157,5 @@ h5{
     left:700px;
     height:1000px;
     width:700px;
-    top:3630px;
+    top:2700px;
 }
-.poster{
-    position:absolute;
-    left:700px;
-    width:700px;
-    height:1100px;
-    top:2530px;
-}
-
-
